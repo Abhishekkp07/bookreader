@@ -1,7 +1,7 @@
 import 'package:bookreader/view/pdfview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+
 
 void main() {
   runApp(MaterialApp(
