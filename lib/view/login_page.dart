@@ -7,7 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Login_page(),
+    home: Login_page(),debugShowCheckedModeBanner: false,
   ));
 }
 
@@ -89,10 +89,8 @@ class _Login_pageState extends State<Login_page> {
                 ),
                 TextButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => Registration_page()));
+                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(
+                          builder: (context) => Registration_page()), (route) => false);
                     },
                     child: Text(
                       "Not a user ?? Register Here !!!",
