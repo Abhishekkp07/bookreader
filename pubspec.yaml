@@ -41,6 +41,7 @@ dependencies:
   http: ^1.2.1
   path_provider: ^2.1.3
   syncfusion_flutter_pdfviewer: ^25.1.42
+  share_plus: ^9.0.0
 
 
 
