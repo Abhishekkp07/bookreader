@@ -26,7 +26,7 @@ class _Home_pageState extends State<Home_page> {
     "assets/documents/four.pdf",
     "assets/documents/file-example.pdf"
   ];
-  var pdf="assets/images/pdf3.png";
+  var pdf = "assets/images/pdf3.png";
 
   @override
   Widget build(BuildContext context) {
@@ -73,6 +73,7 @@ class _Home_pageState extends State<Home_page> {
                   child: Container(
                       height: 150,
                       width: 150,
+                      
                       child: Image.asset(
                         "assets/images/pdf3.png",
                       )),
